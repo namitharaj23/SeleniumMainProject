@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="browzer" value="chrome"/>
+  <parameter name="password" value="admin"/>
+  <parameter name="subcategoryName" value="Regional Usability Specialist"/>
+  <parameter name="imagePath" value="C:\Users\ANUPAMA VISHNU\git\7RMartSuperMarket\SevenRMartSuperMarket\src\test\resources\MeatBalls.jpg"/>
+  <parameter name="categoryname" value="Appliances"/>
+  <parameter name="username" value="admin"/>
+  <test thread-count="5" name="SubCategoryDeleteTest(failed)" verbose="0">
+    <classes>
+      <class name="testscript.SubCategoriesAddNewTest">
+        <methods>
+          <include name="initializeMethod"/>
+          <include name="afterMethod"/>
+          <include name="verifyAddingNewSubCategoryWithValidDetails"/>
+        </methods>
+      </class> <!-- testscript.SubCategoriesAddNewTest -->
+    </classes>
+  </test> <!-- SubCategoryDeleteTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
